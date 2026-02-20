@@ -78,7 +78,6 @@ const GlowOrb = ({ color, size, top, left, delay }) => (
 );
 
 const NavBar = ({ scrolled }) => {
-  const [menuOpen, setMenuOpen] = useState(false);
   return (
     <nav style={{
       position: "fixed", top: 0, left: 0, right: 0, zIndex: 1000, padding: "0 40px",
